@@ -1,0 +1,65 @@
+.about{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap:80px;
+    margin: 80px 170px;
+}
+
+.head{
+    font-size: 50px;
+    position:relative;
+    border: purple;
+    border-radius: 40px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.skills{
+    display:flex;
+    flex-direction: column;
+    
+    gap:20px;
+    width: 100%;
+   /* make <p> and <hr> stacked vertically */
+                  /* smaller gap for better look */
+    
+}
+.skill{
+    display:flex;
+    gap:50px;
+    align-items:center;
+    transition:0.3s;
+}
+.skill p{
+   
+    font-size:24px;
+    font-weight:500;
+    min-width: 150px;
+}
+.skill hr{
+    border: none;
+    outline: none;
+    width: 50%;
+   
+    height: 8px;
+    border-radius: 10px;
+    background: lightcoral;
+}
+.skill hr.h { background-color: #e34c26; width: 90%; }
+.skill hr.r { background-color: #61dafb; width: 70%; }
+.skill hr.j { background-color: #f7df1e; width: 85%; }
+.skill:hover{
+ transform:scale(1.05)
+
+}
