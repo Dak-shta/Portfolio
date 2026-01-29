@@ -1,8 +1,10 @@
-import {React} from "react"
-
+import React from "react"
+import logo from './logo.png'
+import './Navbar.css'
 const Navbar = () => {
   return (
     <div className="navbar">
+        <img  src={logo}></img>
         <ul className="nav-menu">
             <li>Home</li>
             <li>About Me</li>
@@ -10,6 +12,8 @@ const Navbar = () => {
             <li>Portfolio</li>
             <li>Contact</li>
         </ul>
+    
+    <div className="nav-connect">Connect with me</div>
     </div>
   )
 }

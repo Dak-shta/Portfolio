@@ -1,0 +1,29 @@
+img{
+    display:flex;
+    float: left;
+    justify-content: flex-start;
+}
+.navbar{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    margin:20px 170px;
+}
+.nav-menu{
+    display:flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-size: 20px;
+}
+.nav-connect{
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1);
+    font-size: 22px;
+    cursor:pointer;
+    padding:20px 40px;
+    transition: 0.5s;
+}
+.nav-connect:hover{
+    transform: scale(1.05);
+}
