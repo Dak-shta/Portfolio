@@ -12,7 +12,9 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
     "react": "^19.2.0",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^19.2.0",
+    "react-scroll": "^1.9.3",
     "tailwindcss": "^4.1.18"
   },
   "devDependencies": {

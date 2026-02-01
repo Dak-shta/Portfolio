@@ -5,7 +5,7 @@ import call_icon from './call_icon.svg'
 
 const Contact = () => {
   return (
-    <div className='contact' >
+    <div id='contact' className='contact' >
         <div className='contact-title'>
             <h1>Get In Touch</h1>
         </div>
