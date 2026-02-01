@@ -59,6 +59,7 @@
 .skill hr.h { background-color: #e34c26; width: 90%; }
 .skill hr.r { background-color: #61dafb; width: 70%; }
 .skill hr.j { background-color: #f7df1e; width: 85%; }
+.skill hr.t { background-color: #f7df1e; width: 85%; }
 .skill:hover{
  transform:scale(1.05)
 

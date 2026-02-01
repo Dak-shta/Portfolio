@@ -38,18 +38,18 @@ const Navbar = () => {
           {menu === "about" && <img src={nav_underline} alt="" />}
         </li>
 
-        <li>
-          <Link
-            to="portfolio"
-            smooth={true}
-            offset={-50}
-            duration={500}
-            onClick={() => setMenu("portfolio")}
-          >
-            Portfolio
-          </Link>
-          {menu === "portfolio" && <img src={nav_underline} alt="" />}
-        </li>
+        
+          <li>
+  <a
+    href="https://github.com/Dak-shta"  // your GitHub URL
+    target="_blank"                     // open in new tab
+    rel="noopener noreferrer"           // security best practice
+  >
+    Github
+  </a>
+</li>
+
+        
 
         <li>
           <Link
@@ -65,7 +65,13 @@ const Navbar = () => {
         </li>
       </ul>
 
-      <div className="nav-connect">Connect with me</div>
+      <div className="nav-connect">
+        <Link 
+        to='contact'
+        smooth={true}
+        offset={-50}
+        duration={500}
+        onClick={()=>setMenu('contact')}>Connect with me</Link></div>
     </div>
   );
 };
